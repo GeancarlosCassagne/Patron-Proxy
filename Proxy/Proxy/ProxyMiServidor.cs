@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Proxy
 {
-    class ProxyMiServidor : Servidor
+    public class ProxyMiServidor : Servidor
     {
         MiServidor miServidor;
         private int puerto;
